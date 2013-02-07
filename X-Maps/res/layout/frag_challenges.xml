@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    
+    <ImageView
+        android:id="@+id/img_challenge01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/desafio1" />
+    
+    <ImageView
+        android:id="@+id/img_challenge02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dip"
+        android:src="@drawable/desafio2" />
+    
+    <ImageView
+        android:id="@+id/img_challenge03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_challenge01"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/desafio3" />
+    
+    <ImageView
+        android:id="@+id/img_challenge04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_challenge02"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/desafio4" />
+    
+    <ImageView
+        android:id="@+id/img_challenge05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_challenge03"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/desafio5" />
+    
+    <ImageView
+        android:id="@+id/img_challenge06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_challenge04"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/desafiotrilha" />
+
+</RelativeLayout>
